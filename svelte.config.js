@@ -21,7 +21,7 @@ const config = {
             strict: true,
         }),
         paths: {
-            base: isDevMode ? "" : "/ssk-dashboard",
+            base: isDevMode ? "" : process.env.BASE_PATH,
         },
     },
 };
