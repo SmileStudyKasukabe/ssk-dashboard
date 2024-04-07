@@ -1,0 +1,9 @@
+export const SHEET_ID_MAIN         = 0;
+export const SHEET_ID_STUDENTS     = 1274923149;
+export const SHEET_ID_TEACHERS     = 1056925128;
+export const SHEET_ID_CLASSROOMS   = 1299756718;
+export const SHEET_ID_CLASSROOMS_2 = 1565460653;
+export const SHEET_ID_SUBJECTS     = 61258163;
+export const SHEET_ID_LESSON_TYPES = 2140269670;
+export const SHEET_ID_GRADES       = 1971736008;
+export const SHEET_ID_TIME_PRESETS = 159410618;
