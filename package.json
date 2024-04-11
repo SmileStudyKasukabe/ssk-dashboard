@@ -1,38 +1,23 @@
 {
-    "name": "ssk-dashboard",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-        "dev": "vite dev",
-        "build": "npm run build:client && npm run build:server",
-        "build:client": "vite build",
-        "build:server": "node ./script/build-gas-script.js",
-        "deploy": "clasp push && source .env && clasp deploy -i $DEPLOY_ID",
-        "preview": "vite preview",
-        "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
-    },
-    "devDependencies": {
-        "@sveltejs/adapter-auto": "^3.0.0",
-        "@sveltejs/adapter-static": "^3.0.1",
-        "@sveltejs/kit": "^2.0.0",
-        "@sveltejs/vite-plugin-svelte": "^3.0.0",
-        "@types/google-apps-script": "^1.0.82",
-        "@types/uuid": "^9.0.8",
-        "autoprefixer": "^10.4.18",
-        "daisyui": "^4.10.1",
-        "path": "^0.12.7",
-        "postcss": "^8.4.37",
-        "svelte": "^4.2.7",
-        "svelte-awesome-color-picker": "^3.0.6",
-        "svelte-check": "^3.6.0",
-        "tailwindcss": "^3.4.1",
-        "tslib": "^2.4.1",
-        "typescript": "^5.0.0",
-        "uuid": "^9.0.1",
-        "vite": "^5.0.3",
-        "vite-plugin-singlefile": "^2.0.1",
-        "vite-plugin-static-copy": "^1.0.1"
-    },
-    "type": "module"
+	"name": "ssk-dashboard",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"svelte": "^4.2.7",
+		"svelte-check": "^3.6.0",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.3"
+	},
+	"type": "module"
 }
